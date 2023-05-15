@@ -1,0 +1,19 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    width: 200px;
+    height: 220px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    padding: 4px;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,18 @@
+
+.container {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.visible {
+    display: block!important;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
